@@ -1,0 +1,31 @@
+# Java and Spring Boot
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle build folders
+/target/
+/build/
+/.gradle/
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+/.idea/
+/out/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Node.js and React (frontend)
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+
+# Environment files
+*.env
