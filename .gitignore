@@ -1,31 +1,54 @@
-# Java and Spring Boot
+# Maven/Gradle build directories
+/target/
+!.*/src/main/**/target/
+!.*/src/test/**/target/
+
+# Maven wrapper jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Java build files
 *.class
 *.jar
 *.war
 *.ear
 
-# Maven / Gradle build folders
-/target/
+# Build output folders for NetBeans and any IDEs
 /build/
-/.gradle/
+dist/
+nbbuild/
+nbdist/
 
-# Logs
-*.log
+/nbproject/private/
+/.nb-gradle/
 
-# IntelliJ IDEA
-/.idea/
-/out/
+# IDEs
 
-# VS Code
+## STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## VS Code
 .vscode/
 
-# MacOS
+# OS files
 .DS_Store
+Thumbs.db
 
 # Node.js and React (frontend)
-/frontend/node_modules/
-/frontend/build/
-/frontend/dist/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
 
 # Environment files
 *.env
